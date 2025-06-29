@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="I’m Busireddy Gnana Goutham Reddy, a passionate frontend developer skilled in React, HTML, CSS, and JavaScript. View my work and get in touch." />
+    <!-- css -->
+    <link rel="stylesheet" href="contact.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./bgr_orangelogo-removebg.png" type="image/x-icon">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>Frontend Developer | HTML • CSS • JS</title>
+</head>
+<body>
+    <div class="navbar-block">
+  <div class="logo">
+    <img src="./bgr_orangelogo-removebg.png" alt="logo" />
+    
+  </div>
+
+  <div class="hamburger" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a class="navlink" href="./index.html">Home</a>
+    <a class="navlink" href="./about.html">About</a>
+    <a class="navlink" href="./skills.html">Skills</a>
+    <a class="navlink contact" href="./contact.html">Contact</a>
+  </div>
+</div>
+
+    <section class="contact-section">
+  <h1 class="section-title">Let's Talk 😊</h1>
+  <div class="contact-body">
+<div class="social-icons">
+  <a href="http://" target="_blank" rel="noopener noreferrer"><i class='bx bxs-phone-call'></i></a>
+  <a href="http://" target="_blank" rel="noopener noreferrer"><i class='bx bxl-telegram'></i></a>
+  <a href="http://" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square' ></i></a>
+</div>
+<div class="contact-box">
+  <form onsubmit="return validateForm()">
+               
+    <label for="clientname" class="form-label"  >Full Name<span class="required">*</span></label>
+    <input type="name" class="form-control" id="clientname" aria-describedby="emailHelp" placeholder="Your Full Name">
+    
+  
+    <label for="clientemail" class="form-label">Email address<span class="required">*</span></label>
+    <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Your Email">
+    
+    <label >Your Message</label>
+    <!-- <input type="text"  placeholder="Share your thoughts..."> -->
+    <textarea placeholder="Share your thoughts..." rows="4"></textarea>
+
+
+                
+                
+    <button type="submit" ><i class='bx bxs-send' ></i>Send Message</button>
+  </form>
+</div>
+</div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>
