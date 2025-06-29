@@ -73,7 +73,7 @@ body{
   color: white;
   cursor: pointer;
   z-index: 1;
-      margin-left: auto;
+  margin-left: auto;
 
   
 
@@ -412,6 +412,9 @@ animation-delay: 1.4s;
 }
 
 @media (max-width: 600px) {
+  .scroll-down{
+    position: relative;
+top: 170px;  }
   .info-section {
     margin-top: 100px;
     padding: 20px;
@@ -706,6 +709,8 @@ form button:hover {
     gap: 20px;
   }
 }
+/* contact-animation */
+
 footer{
  display: flex;
  position: fixed;

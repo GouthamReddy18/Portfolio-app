@@ -256,3 +256,30 @@ form button:hover {
 .contact-body{
     animation: contact-animate  1s ease-out forwards;
 }
+
+/* hamburger */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+    z-index: 2;
+  }
+}
